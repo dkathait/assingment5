@@ -1,0 +1,7 @@
+b=[]
+for i in range(1,11):
+    b.append(i)
+print("aoringinal list: ",b)
+a=b[0:5]
+print("Extracted first five elements: ", a)
+print("Reversed extracted elements: ",a[::-1])
